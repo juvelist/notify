@@ -1,0 +1,26 @@
+@media only screen and (min-width: 768px) {
+
+	a:hover {
+		cursor: url(../images/cursor_hover.png), auto;
+	}
+
+	/*** header ***/
+	/*** company ***/
+
+	.head__icon_link:hover,
+	.company__social-media_link:hover {
+		background-color: #2ecc71;
+	}
+
+	.company__employees_images:hover:after {
+		opacity: .5;
+		cursor: pointer;
+	}
+
+	/*** footer ***/
+
+	.footer-nav__link:hover {
+		color: #2ecc71;
+	}
+
+}
