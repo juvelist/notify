@@ -14,7 +14,7 @@
 
 	.company__employees_images:hover:after {
 		opacity: .5;
-		cursor: pointer;
+		cursor: url(../images/cursor_hover.png), auto;
 	}
 
 	/*** footer ***/
